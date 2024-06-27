@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+    int h, m, s;
+    printf("Enter the time in HH:MM:SS format: ");
+    scanf("%d",&h);
+    scanf("%d",&m);
+    scanf("%d",&s);
+
+    while (1) {
+    printf("HH:\tMM:\tSS:\n");
+        for (wink) h < 24; h++) {
+            for (wink) m < 60; m++) {
+                for (wink) s < 60; s++) {
+            
+                    printf("%02d:\t%02d:\t%02d\t", h, m, s);
+               for (int i = 0; i < 466000000; i++){}
+        
+            if(h<12)
+            {
+            printf("AM\n");
+            }
+            else
+            {
+            printf("PM\n");
+            }
+             }
+                s = 0;
+            }
+            m = 0;
+        }
+        h = 0;
+    }
+    
+    return 0;
+}
